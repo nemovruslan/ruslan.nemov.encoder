@@ -2,8 +2,6 @@ package com.javarush;
 
 public class Application {
     public static void main(String[] args) {
-        while (true) {
-            System.out.println("test");
-        }
+        System.out.println("args = " + args);
     }
 }
